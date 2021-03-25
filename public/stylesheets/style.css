@@ -1,0 +1,37 @@
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00b7ff;
+}
+
+div {
+  border: 1px solid red;
+  min-height: 100px;
+  min-width: 25%;
+}
+
+#section {
+  border: 3px solid green;
+  border-radius: 30px;
+
+  /* position: fixed;
+  top: 30px;
+  left: 20px; */
+}
+
+#topFooter {
+  display: flex;
+}
+
+#bottomFooter {
+  display: flex;
+}
+
+#info_foot {
+}
+
+#service_foot {
+  position: ;
+}

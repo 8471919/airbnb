@@ -1,5 +1,6 @@
 body {
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  margin: 0px;
 }
 
 a {
@@ -7,13 +8,13 @@ a {
 }
 
 div {
-  border: 1px solid red;
+  border: 1px solid #eeeeee;
   min-height: 100px;
-  min-width: 25%;
+  min-width: 20%;
 }
 
 #section {
-  border: 3px solid green;
+  border: 3px solid;
   border-radius: 30px;
 
   /* position: fixed;
@@ -21,17 +22,9 @@ div {
   left: 20px; */
 }
 
-#topFooter {
-  display: flex;
-}
-
-#bottomFooter {
-  display: flex;
-}
-
-#info_foot {
-}
-
-#service_foot {
-  position: ;
+#footer {
+  font-style: Circular;
+  padding-left: 80px;
+  padding-right: 80px;
+  border: 0px;
 }

@@ -1,0 +1,61 @@
+/* 여기부터 footer입니다. */
+
+#topFooter {
+  display: flex;
+  min-width: 1128px;
+  margin-left: -12px;
+  margin-right: -12px;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  border: 0px;
+}
+.information_foot {
+  padding-left: 12px;
+  padding-right: 12px;
+  border: 0px;
+  width: 25%;
+  flex: 100%;
+}
+.inform_title {
+  font-style: Circular;
+  color: #222222;
+  margin-bottom: 0px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.inform_contents {
+  margin-top: 12px;
+  padding-left: 0px;
+  padding-right: 0px;
+  color: #484848;
+  font-size: 14px;
+  font-weight: inherit;
+  line-height: 1.43;
+}
+
+#bottomFooter {
+  display: flex;
+  border: 0px;
+  border-top: 1px solid #dddddd;
+}
+#info_foot {
+  border: 0px;
+}
+#language_foot {
+  display: flex;
+  border: 0px;
+  position: absolute;
+  right: 200px;
+}
+#tag_foot {
+  border: 0px;
+}
+
+/* 나중에 지워줄 것 */
+.left_language_foot,
+.right_language_foot {
+  margin-left: 30px;
+  border: 0px;
+  text-decoration: underline;
+}

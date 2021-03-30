@@ -1,18 +1,38 @@
 #covid {
   padding-top: 10px;
+  background-color: #222222;
 }
 
 .covidstatement {
   text-align: center;
+  text-decoration: underline;
   margin: 0px;
+  font-weight: 600;
+  color: #a3a3a3;
 }
 
 #menuBar {
   display: flex;
+  background-color: black;
 }
 
 #icon {
+  display: flex;
   width: 30%;
+}
+
+#airbnbimg {
+  width: 115px;
+  height: 70px;
+}
+
+.airbnb {
+  margin-top: 15px;
+  margin-left: -35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  z-index: 1;
 }
 
 #selectOption {
@@ -24,6 +44,7 @@
 
 .sO {
   margin: 30px;
+  color: white;
 }
 
 #mypage {
@@ -32,11 +53,22 @@
   /* margin-left: calc(30% - 20px); */
 }
 
-.rt {
-  margin-left: 350px;
+.host {
+  margin-left: 300px;
+  padding: 20px;
+  border: 4px solid white;
+  border-radius: 15px;
+
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 18px;
 }
 
 #searchBar {
+  border: 0px solid white;
+  border-radius: 50px;
+  background-color: white;
   position: absolute;
   top: 155px;
   left: 170px;
@@ -52,4 +84,17 @@
 #mainPicture3 {
   width: 100%;
   height: 100%;
+}
+
+#mainTitle {
+  padding-top: 30px;
+  background-color: black;
+  text-align: center;
+}
+
+.mainT {
+  color: white;
+  font-size: 30px;
+  font-weight: 100;
+  letter-spacing: -0.02em;
 }

@@ -1,3 +1,9 @@
+#header {
+  background-color: black;
+  padding-left: 4%;
+  padding-right: 4%;
+}
+
 #covid {
   height: 18px;
   padding-top: 20px;
@@ -14,8 +20,9 @@
 }
 
 #menuBar {
+  padding-top: 30px;
+  padding-bottom: 10px;
   display: flex;
-  background-color: black;
 }
 
 #icon {
@@ -29,7 +36,7 @@
 }
 
 .airbnb {
-  margin-top: 15px;
+  margin-top: 0px;
   margin-left: -35px;
   color: white;
   font-size: 20px;
@@ -45,22 +52,20 @@
 }
 
 .sO {
-  margin: 30px;
+  margin: 15px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 400;
   color: white;
 }
 
 #mypage {
-  border: 1px solid blue;
   width: 30%;
-  /* margin-left: calc(30% - 20px); */
 }
 
 .host {
-  margin-left: 300px;
-  padding: 20px;
-  border: 4px solid white;
+  margin-left: 30%;
   border-radius: 15px;
-
   color: white;
   font-size: 14px;
   font-weight: 600;
@@ -68,18 +73,20 @@
 }
 
 #searchBar {
-  border: 0px solid white;
+  margin-left: 23%;
+  margin-right: 23%;
   border-radius: 50px;
   background-color: white;
   position: absolute;
-  top: 155px;
-  left: 170px;
-  width: 80%;
+  width: 46%;
+  height: 8%;
   z-index: 1;
 }
 
 #mainPicture {
-  padding: 4%;
+  min-width: 700px;
+  padding-left: 1%;
+  padding-right: 1%;
   background-color: black;
 }
 

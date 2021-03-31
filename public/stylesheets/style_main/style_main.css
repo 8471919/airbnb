@@ -1,13 +1,19 @@
 #main {
-  padding-left: 7%;
-  padding-right: 7%;
+  padding-left: 6.5%;
+  padding-right: 6.5%;
+}
+
+#sub_sTitle {
+  display: grid;
+  column-count: 4;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 16px;
 }
 
 #section2 {
   margin-bottom: 60px;
   position: relative;
   height: 480px;
-  min-width: 1128px;
   display: flex;
   overflow: hidden;
 }
@@ -55,6 +61,62 @@
   background-color: white;
   font-size: 16px;
   font-weight: 600;
+}
+
+.sTitle {
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 52px;
+}
+
+.sTitle2 {
+  font-size: 26px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.attraction {
+  display: flex;
+  height: 64px;
+}
+
+.city {
+  margin-right: 15px;
+  border-radius: 8px;
+  height: 100%;
+}
+
+.cityExplain {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.cityExplain2 {
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.sectionExplain {
+  display: flex;
+}
+
+.sectionExplain2 {
+  width: 25%;
+  margin: 6px;
+  overflow: hidden;
+}
+
+.sectionExplain2Picture {
+  border-radius: 8px;
+  width: 100%;
+  height: 85%;
+}
+
+.sectionExplain3 {
+  width: 33.3%;
+  height: 100%;
+  margin: 6px;
+  overflow: hidden;
 }
 
 /* #section2 :hover {

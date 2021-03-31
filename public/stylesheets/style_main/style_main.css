@@ -1,10 +1,14 @@
 #main {
-  padding-left: 8%;
-  padding-right: 8%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 #section2 {
-  height: 500px;
+  margin-bottom: 60px;
+  position: relative;
+  height: 480px;
+  min-width: 1128px;
+  display: flex;
   overflow: hidden;
 }
 
@@ -15,6 +19,44 @@
   border-radius: 20px;
 }
 
-#section2 :hover {
-  border: 10px solid red;
+#inImgTitle {
+  padding-left: 80px;
+  padding-right: 80px;
+  position: absolute;
+  top: 0px;
+  border: 0px;
+  width: 400px;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  max-width: 356px;
 }
+
+.section2Explain {
+  margin-top: 25%;
+  margin-bottom: 12px;
+  color: white;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 52px;
+}
+
+.section2Explain2 {
+  margin-bottom: 55px;
+  color: white;
+  font-size: 18px;
+}
+
+.section2Explain3 {
+  padding: 15px;
+  padding-left: 25px;
+  padding-right: 25px;
+  border-radius: 10px;
+  background-color: white;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/* #section2 :hover {
+  border: 10px solid red;
+} */

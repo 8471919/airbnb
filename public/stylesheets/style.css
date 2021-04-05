@@ -21,7 +21,7 @@ a {
 div {
   border: 0px;
   min-height: 10px;
-  min-width: 10%;
+  min-width: 5%;
 }
 
 /* #section {
@@ -32,6 +32,20 @@ div {
   top: 30px;
   left: 20px;
 } */
+#covid {
+  height: 18px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: #222222;
+}
+
+.covidstatement {
+  text-align: center;
+  text-decoration: underline;
+  margin: 0px;
+  font-weight: 600;
+  color: #a3a3a3;
+}
 
 #footer {
   font-style: Circular;

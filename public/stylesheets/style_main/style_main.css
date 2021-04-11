@@ -3,10 +3,16 @@
   padding-right: 6.5%;
 }
 
+.section {
+  margin-top: 4%;
+}
+
 .sectionTitle {
   font-size: 32px;
   font-weight: 700;
   line-height: 52px;
+  position: relative;
+  bottom: 20px;
 }
 
 #nearbySpot {
@@ -25,6 +31,11 @@
   margin-right: 15px;
   border-radius: 8px;
   height: 100%;
+}
+
+.cityExplain {
+  position: relative;
+  top: 8px;
 }
 
 .cityName {

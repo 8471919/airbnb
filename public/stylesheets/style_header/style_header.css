@@ -179,7 +179,8 @@
 }
 
 #mainText {
-  padding-top: 30px;
+  padding-top: 2%;
+  padding-bottom: 2%;
   background-color: black;
   text-align: center;
 }

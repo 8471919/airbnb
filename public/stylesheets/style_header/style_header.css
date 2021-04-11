@@ -44,14 +44,19 @@
   line-height: 20px;
   font-weight: 400;
   color: white;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 #mypage {
   width: 30%;
+  display: flex;
 }
 
 #becomeHost {
   margin-left: 42%;
+  margin-bottom: 37px;
   padding: 15px;
   padding-top: 7px;
   padding-bottom: 7px;
@@ -61,10 +66,40 @@
   font-size: 14px;
   font-weight: 600;
   line-height: 18px;
+  white-space: nowrap;
+  position: relative;
+  bottom: 6px;
 }
 
 #globe {
+  margin-left: 15px;
   width: 5%;
+  height: 35%;
+}
+
+#myInformation {
+  margin-top: -10px;
+  margin-left: 15px;
+  margin-bottom: 41px;
+  border: 1px solid white;
+  border-radius: 21px;
+  background-color: white;
+  width: 14%;
+  overflow: hidden;
+}
+
+#hamburgerIcon {
+  width: 45%;
+  position: relative;
+  top: 2px;
+  left: 5px;
+}
+
+#userIcon {
+  width: 40%;
+  position: relative;
+  top: 6px;
+  left: 6px;
 }
 
 #searchBar {

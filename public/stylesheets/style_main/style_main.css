@@ -49,18 +49,24 @@
 }
 
 .wantedOption {
+  margin: 8px;
+  margin-bottom: 5%;
   width: 25%;
-  margin: 6px;
   overflow: hidden;
 }
 
 .radiusSmallPicture {
+  margin-bottom: 5px;
   border-radius: 8px;
   width: 100%;
-  height: 85%;
+  height: auto;
 }
 
 .wantedOptionTitle {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  white-space: pre-line;
 }
 
 #section2 {

@@ -6,13 +6,14 @@
 .section {
   margin-top: 4%;
 }
-
+#sectionTitleText {
+  position: relative;
+  bottom: 20px;
+}
 .sectionTitle {
   font-size: 32px;
   font-weight: 700;
   line-height: 52px;
-  position: relative;
-  bottom: 20px;
 }
 
 #nearbySpot {
@@ -137,3 +138,17 @@
 /* #section2 :hover {
   border: 10px solid red;
 } */
+
+.sectionExplainName {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+}
+
+.sectionExplainContent {
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 400;
+  position: relative;
+  top: 1px;
+}

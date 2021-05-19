@@ -23,7 +23,7 @@ class App {
 
         body.appendChild(input);
 
-        input.onchange = this.search;
+        input.oninput = this.search;
         input.type = "text";
 
         const result = document.createElement("div");

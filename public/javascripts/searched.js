@@ -40,7 +40,7 @@ class App {
         }
 
         const data = document.getElementById("priceInput").value;
-        const response = await fetch("/house?price=" + data, {
+        const response = await fetch("/search?price=" + data, {
             method: "POST",
         });
         const jsonData = await response.json();
